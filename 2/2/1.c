@@ -2,6 +2,8 @@
     Date calculator.
 
     It can output the next day and it can print a date.
+
+    Written by Anton Samarchyan.
 */
 
 #include <stdio.h>
