@@ -75,7 +75,7 @@ date nextday(date d) {
     }
 
     // Calculate the next day
-    if (d.d == days_in_month) {
+    if (d.d == days_in_month) { // Case where it's the last day of the month
         result.d = 1;
         result.m = (d.m + 1) % MONTHS_NUM;
     } else {
