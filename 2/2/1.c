@@ -25,8 +25,14 @@
 
 #define DATES_INPUT_NUM 5
 
-typedef enum month{jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec} month;
-typedef struct date{month m; int d;} date;
+typedef enum month{
+    jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec
+} month;
+
+typedef struct date{
+    month m;
+    int d;
+} date;
 
 // Get the next day
 date nextday(date d) {
