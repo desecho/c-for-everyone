@@ -21,6 +21,7 @@ void read_weights(FILE *file, int weights[]) {
     }
 }
 
+// Get average of weights
 double get_average(int weights[]) {
     int i;
     double sum = 0; // This has to be double due to the fact that the result of the calculation should be double
