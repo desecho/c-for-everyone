@@ -3,6 +3,10 @@
 
     It outputs a table of elements info.
 
+    Instructions: Here is the data to enter. You can put this data into a file named "data" and put it in the
+    same directory as the code. Use this command to enter data automatically: `./a.out < data`
+    The data can be found here - https://pastebin.com/5dMJf9nU
+
     Written by Anton Samarchyan.
 */
 
